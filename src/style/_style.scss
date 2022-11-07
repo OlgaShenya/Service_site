@@ -1,0 +1,16 @@
+body {
+  font-family: 'Montserrat';
+}
+.ku {
+  width: 200px;
+  height: 200px;
+  border-radius: 90%;
+  background-color: $color;
+}
+
+.image {
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  background-image: url('img/brock-wegner.jpg');
+}
