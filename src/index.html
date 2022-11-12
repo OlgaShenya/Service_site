@@ -11,7 +11,104 @@
     <title>Title</title>
 </head>
 <body>
-    <div class="ku">rhghtr fgdg</div>
-    <div class="image"></div>
+<header class="header">
+    <div class="container">
+       <img class ="header__logo"src="img/logo.svg" alt="логотип">
+       <form action="" class="header__search search">
+            <input type="text" class="search__input">
+            <button type="submit" class="search__button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.875 18.75C15.2242 18.75 18.75 15.2242 18.75 10.875C18.75 6.52576 15.2242 3 10.875 3C6.52576 3 3 6.52576 3 10.875C3 15.2242 6.52576 18.75 10.875 18.75Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M16.4431 16.4438L20.9994 21.0001" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+            </button>
+       </form>
+       <div class="header__auth">
+            <button class="header__auth-tbn header__auth-tbn_sign-in">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.81348 15.9375L12.7499 12L8.81348 8.0625" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.25 12H12.7472" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.75 3.75H18C18.1989 3.75 18.3897 3.82902 18.5303 3.96967C18.671 4.11032 18.75 4.30109 18.75 4.5V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H12.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Войти</span>                    
+            </button>
+            <button class="header__auth-tbn header__auth-tbn_sign-up">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.81348 15.9375L12.7499 12L8.81348 8.0625" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2.25 12H12.7472" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12.75 3.75H18C18.1989 3.75 18.3897 3.82902 18.5303 3.96967C18.671 4.11032 18.75 4.30109 18.75 4.5V19.5C18.75 19.6989 18.671 19.8897 18.5303 20.0303C18.3897 20.171 18.1989 20.25 18 20.25H12.75" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Регистрация</span>                    
+            </button>
+       </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <section class="category">
+            <button class="category__title">Категории</button>
+            <ul class="category__list">
+                <li class="category__item">
+                    <button class="category__btn category__btn_photographer" >Фотограф</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_makeuper" >Визажист</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_masseur" >Массажист</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_handyman" >Муж на час</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_cosmetologist" >Косметолог</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_electrician" >Электрик</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_nailmaster" >Мастер маникюра</button>
+                </li>
+                <li class="category__item">
+                    <button class="category__btn category__btn_plumber" >Сантехник</button>
+                </li>
+            </ul>
+            
+        </section>
+        <section class="specialists">
+            <ul class="specialists__list">
+                <li class="specialists__item">
+                    <article class="specialist">
+                        <img src="img/Ivan.png" alt="avatar" class="specialist__avatar">
+                        <div class="specialist__info">
+                            <h3 class="specialist__profession">Фотограф</h3>
+                            <p class="specialist__name">Иван П.</p>
+                        </div>
+                        <p class="specialist__price">от 4000 ₽</p>
+                        <div class="specialist__review">
+                            <div class="specialist__stars">
+                                <img src="img/Star_full.svg" alt="">
+                                <img src="img/Star_full.svg" alt="">
+                                <img src="img/Star_full.svg" alt="">
+                                <img src="img/Star_empty.svg" alt="">
+                            </div>
+                            <p class="specialist__count-review">4</p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <img src="img/logo.svg" alt="logo" class="footer__logo">
+        <p class="footer__copyright">© Услугус, 2022</p>
+        <div class="footer__adress">
+            <p>Design by xxxxxx</p>
+            <p><a href="##" target="blank">Tg: xxxxxx</a></p>
+        </div>
+    </div>
+</footer> 
 </body>
 </html>
