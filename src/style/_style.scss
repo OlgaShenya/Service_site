@@ -1,9 +1,64 @@
-body {
-  font-family: 'Montserrat';
+html {
+  box-sizing: border-box;
 }
-.ku {
-  width: 200px;
-  height: 200px;
-  border-radius: 90%;
-  background-color: $color;
+
+*,
+*::after,
+*:before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+fieldset {
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $back;
+  color: $text;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font: inherit;
+  display: block;
+  cursor: pointer;
+  padding: 0;
+}
+
+input,
+textarea {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+.container {
+  max-width: 1180px;
+  padding: 20px;
 }
